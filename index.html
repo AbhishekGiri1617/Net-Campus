@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Netcampus </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./Images/Net campus favicon.png">
+</head>
+<body>
+ <header>
+  
+  <img style="height: 50px;width: 50px;padding: 0 1%  0 5%;float: left;" src="./Images/ssipmt logo.jpeg" alt="">
+<h1 style="color: black;">Shri Shankaracharya Institue Of Professional Management And Technology</h1>
+<h6 style="color: black; padding-left: 8%;">Old Dhamtari Road, Sejabahar, Mujgahan, Raipur</h6>
+
+   <div id="userProfile">
+      <span style="font-size:30px;cursor:pointer;float: right" onclick="openrNav()"><img src="./Images/user.png" alt=""></span>
+   </div>
+   
+   
+
+ </header>
+
+ <div>
+  
+  <div id="mySidebar" class="sidebar" onmouseover="toggleSidebar()" onmouseout="toggleSidebar()">
+    <a href="#Introduction"><img class="material-icons" src="./Icons/Conclusion.jpg" alt=""><span class="icon-text"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Introduction<span></a>
+    <a href="#Academic"><span> <img class="material-icons" src="./Icons/summary-png-icon-6095.png"></i><span class="icon-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Academic</span></a>
+    <a href="#Examination"> <img class="material-icons" src="./Icons/goal-icon-png-21.jpg" alt=""><span class="icon-text"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Examination</a></span></a>
+    <a href="#Library"> <img class="material-icons" src="./Icons/overview.png" alt=""> <span class="icon-text"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Library</span></a>
+    <a href="#WorkFLow"><img class="material-icons" src="./Icons/AnanlysisIcon.png" alt=""><span class="icon-text"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Workflow Manager<span></a>
+    <a href="#OtherUtility"><img class="material-icons" src="./Icons/ProcessDefinitionIcon.png" alt=""><span class="icon-text"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Other Utility<span></a>
+    <a href="#Technology Used"><img class="material-icons" src="./Icons/technology.png" alt=""><span class="icon-text"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Technology to  be Used<span></a>
+</div>
+
+<!-- right sidenav -->
+<div id="myrSidenav" class="rsidenav">
+  <a href="javascript:void(0)" class="closerbtn" onclick="closerNav()">&times;</a>
+  <a href="#MyProfile">My Profile</a>
+  <a href="#MyMessage">My Messsges</a>
+  <a href="#PasswordManager">Password Manager</a>
+  <a href="#AcademicSession">Academic session</a>
+</div>
+
+<!-- Right sidenav end -->
+    
+    <main id="main" > 
+    <div>
+
+      <div id="Introduction">
+        <h2>Introduction</h2>
+    <p>Net Campus is basically a full and pro solution for the universities, colleges and schools which manages all type problems related to academic and management.
+      NetCampus Student Portal consists of 8 modules with respective sub modules in each module 
+      8 modules are as follows:
+      <ol>
+        <li>My Page</li>
+        <li>Fee Module</li>
+        <li>Academic</li>
+        <li>Examination</li>
+        <li>Online Exam</li>
+        <li>Library</li>
+        <li>Workflow Manager</li>
+        <li>Other utitlities</li>
+      </ol>
+        <br>
+        The purpose for this document is to provide a idea of how this student portal is capable to manage the records and also understand about the use of each module of student portal in elaborated manner. 
+        <br><br>
+        <b>How to Login in Student Portal </b>
+        <br><br>
+        <b>Step 1:-</b><br><br>
+        Write the URL <a href="https://ssipmt.mynetcampus.com/"> https://ssipmt.mynetcampus.com/ </a> on any Browser such as chrome browser 
+        <br><br>
+        <img id="myImg" class="borderradius" src="./Images/Introduction/Login page.png" alt="" style="width: 100%;">
+        <br><br>
+        <b>Step 2:-</b><br><br>
+        Enter Username and Password which is provided <br><br>
+        If you have forgot your password click on the forget password option 
+        <br><br>
+        <img id="myImg" class="borderradius" src="./Images/Introduction/2.jpeg" alt="" style="width: 100%;">
+        <br><br>
+
+        <b>Step 3:-</b> <br><br>
+      Click on the login button.
+      <br><br>
+        <img id="myImg" class="borderradius" src="./Images/Introduction/3.jpeg" alt="" style="width: 100%;">
+        <br><br>
+
+        <b>Step 4:-</b> <br><br>
+        After successful login it will open the student portal dashboard as shown in the figure. 
+        <br><br>
+        
+        <img id="myImg" class="borderradius" src="./Images/Introduction/4.jpeg" alt="" style="width: 100%;">
+
+      
+      </p>
+      </div>
+
+      <br>
+      <hr>
+      <br>
+
+      <div id="MyPage">
+        <h2>My Page</h2>
+          <p>This is the first module of the netcampus webapp. It comprises of 4 more parts which are namely: -</p>
+          <ol>
+            <li>Dashboard</li>
+            <li>My Mailbox</li>
+            <li>Calender Events</li>
+            <li>No-Due Status</li>
+          </ol>
+
+          <br><br>
+            <ol>
+              <li>
+                <p>
+                  <b>Dashboard:-</b> <br><br>
+                  It is the first Sub-module of the "My page" module which is by default page of the app as it comprises of all the basic information about you and your institute like events, notice board, calendar, to do list photo gallery, important documents, meeting schedules etc. 
+                  <br><br>  
+                  <u> Notice board  </u> is as same as a notice board in the college.  It will show all the important notice. 
+
+                  <br><br>
+
+                  <img id="myImg" class="borderradius" src="./Images/My page/Notice Board.png" alt="" style="width: 100%;">
+
+                  <br><br>
+                  Click on "view more" and you can see all the active and inactive notices.
+                  <br><br>
+
+                  <img id="myImg" class="borderradius" src="./Images/My page/Notice board View more.png" alt="" style="width: 100%;">
+                  <br><br>
+                  In <u> "News and Events" </u>  section, you can see the upcoming events of the institute and the news related to the institute.
+                  <br><br>
+
+                  <img id="myImg" class="borderradius" src="./Images/My page/News and event.png" alt="" style="width: 100%;">
+                  <br><br>
+
+                  Click on "view more" and you can see all the active and inactive notices.
+                  <br><br>
+
+                  <img id="myImg" class="borderradius" src="./Images/My page/New and event view more.png" alt="" style="width: 100%;">
+                  <br><br>
+                  In the <u> "Calendar"</u>, all the events are marked on the date, some dates are marked as green which are national or state holiday, and some are marked as red for the day off or the important events.
+                  <br><br>
+                  <img id="myImg" class="borderradius" src="./Images/My page/Calendar.png" alt="" style="width: 100%;">
+                  <br><br>
+                  <u> To-Do list </u> is kind of a Wishlist that you want to do in a particular period.
+                  <br><br>
+                  <img id="myImg" class="borderradius" src="./Images/My page/ToDO list.png" alt="" style="width: 100%;">
+                  <br><br>
+                  <b>To add new item in To-Do list </b><br><br>
+                  <b>Step 1:- </b> <br>
+                  Click on Add New button.
+                  <br><br>
+                  <img id="myImg" class="borderradius" src="./Images/My page/Add new to do list.png" alt="" style="width: 100%;">
+                  <br><br>
+
+                  <b>Step 2:-</b><br>
+                  Select the due date and add description. The click on Add Item button.
+                  <br><br>
+                  <img id="myImg" class="borderradius" src="./Images/My page/click on add item to confrim.png" alt="" style="width: 100%;">
+                  <br><br>
+                  <u> Document </u>  section contains all the documents sent, documents can be Academic calendar, notes, EOA, purchase order, report, tests and it will also show the time when its available, and status if its available now or not.
+                  <br><br>
+
+                </p>
+              </li>
+
+              <li>
+                <b>My Mailbox:- </b><br><br>  
+                <p>In Mailbox you can send or receive messages to/from your faculties, classmates, HODs etc</p>
+                <br><br>
+                <b>To send any mail:-</b> <br>
+                </li>
+                <b>How to create a mail:- </b>
+        <br><br>
+        <b>Step 1:- </b>
+        <p>Click on compose mail, than with the help of button select to whom you want to sent the mail(to teaching staff, role based or another student)</p>
+        <br>
+        <p>If you want to send mail to a teaching staff, click on teaching staff option and then click on show list.</p>
+          <br>
+          <p>It will show all the valid name of teaching faculty than choose your faculty and press select user button.</p>
+          <br><br>
+          <img id="myImg" class="borderradius" src="./Images/My message/Create 1.png" alt="My profile 1" width="98%">
+        <br><br>
+        <b>OR</b>
+        <br><br>
+        <p>If you want to send mail to another student than click on student option and then select the course of the student in which he/she is, then select their semester, select division (if any and if that department do not have division than select A) and at last click on show list .</p>
+        <br>
+        <p>Select the students name and then click on select user</p>
+        <br><br>
+        <img id="myImg" class="borderradius" src="./Images/My message/Create 1.2.1.png" alt="My profile 1" width="98%">
+
+        <br><br>
+        <b>OR</b>
+        <br><br>
+        <p>If you want to send mail to any other person of the institute then select role based option and then select their role and then select their user type and then click on select user button</p>
+        <br><br>
+        <img id="myImg" class="borderradius" src="./Images/My message/Create 1.3.png" alt="My profile 1" width="98%">
+        <br><br>
+        <p>Select your role and than select the concerned person and then click on Select user</p>
+        <br><br>
+        <img id="myImg" class="borderradius" src="./Images/My message/Create 1.3.1.png" alt="My profile 1" width="98%">
+        <br><br>
+        <b>Step 2:-</b>
+        <p>Add cc (if required in the same manner as above)</p>
+        <br><br>
+        <b>Step 3:-</b>
+        <p>Add subject the one liner statement to tell the receiver why you have sent them the email.</p>
+        <br><br>
+        <b>Step 4:-</b>
+        <p>Then add content </p>
+        <br><br>
+        <b>Step 5:-</b>
+        <p>Then click on send button to send the mail</p>
+        <br><br>
+        <img id="myImg" class="borderradius" src="./Images/My message/create final.png" alt="My profile 1" width="98%">
+        <br><br>
+        <b>Inbox:-</b>
+        <br><br>
+        <p>	It Is a place where you can see all the mails you have received from another person.</p>
+        <br><br>
+        <img id="myImg" class="borderradius" src="./Images/My message/Inbox.png" alt="My profile 1" width="98%">
+        <br><br>
+        <b>Outbox:-</b> <br><br>
+        <p>	It is a place where you can see all the messages you have sent till now in the past.</p>
+        <br><br>
+        <img id="myImg" class="borderradius" src="./Images/My message/Outbox.png" alt="My profile 1" width="98%">
+
+
+              <br><br>
+
+              <li>
+                <b>Calendar Event</b> <br><br>
+                <p>It is another sub-module under My page which will behold all the events that have had happened in the institute or about to happen in the institute. You can check the events according to there categories, there sre several categories such as Academic, event, festival, holidays, weekend off</p>
+                <br><br>
+                <img id="myImg" class="borderradius" src="./Images/My page/No-dues.png" alt="" style="width: 100%;">
+
+              </li>
+            </ol>
+
+            <br><hr><br>
+
+            <div id="FeeModule">
+              <h2>Fee Module</h2>
+              <br>
+              <p>Here, the fee module contains all the details about fees and it Consists of 3 parts, namely: -</p>
+
+              <ol>
+                <li>My Fee Structure</li>
+                <li>Payment history</li>  
+                <li>Pay fee Online</li>
+              </ol>
+              
+              <br><br>
+
+              <ol>
+                <li>
+                  <b>My Fee Structure:-</b><br><br>
+                  <p>In this sub-module, we can see the fee structure institute of all the semester. This module will show you all the fees that are included in the fees structure separately</p>
+                  <br><br>
+                  <img id="myImg" class="borderradius" src="./Images/Fee Module/Fee structure.png" alt="" style="width: 100%;">
+                  <br><br>
+                </li>
+
+                <li>
+                  <b>Payment History:- </b> <br><br>
+                  <p>Here, you can see all the past payments you have done in the institutes in the name of fees, and you can withdraw your receipt from the same.</p>
+                  <br><br>
+                  <img id="myImg" class="borderradius" src="./Images/Fee Module/Payment history.jpg" alt="" style="width: 100%;">
+
+                </li>
+
+                <li>
+                  <b>Pay Fee Online:- </b> <br><br>
+                  <p>This is the sub-module, where you can pay your fees online with different modes of payment like payment with debit card, credit card, upi etc.</p>
+                  <br><br>
+                  <img id="myImg" class="borderradius" src="./Images/Fee Module/Pay fee online.jpg" alt="" style="width: 100%;">
+
+                </li>
+              </ol>
+
+            </div>
+
+            <br><hr><br>
+      </div>
+      <div id="Academic">
+        <br><br>
+        <h2>Academic :-</h2>
+        <p> This module is used to describe things that relate to the work for the students such as, their academic Syllabus, schedule of their Online classes, Timetable, Notes, Assignment, Student Attendance, Co-curricular activities.
+            This module consists of 10 sub modules which are as follows: -
+        </p>
+          <br>
+        
+        <ol>
+          <li> <strong>&nbsp;&nbsp;My Syllabus:-</strong> <br><br>
+            In this module you can search your syllabus of any subjects of your semester. You will also find your existing syllabus there in the module.
+
+            Picture show the syllabus of Academic front screen- <br><br>
+            <img id="myImg" class="borderradius" src="./Images/Academic/my syllabus.png" alt="" style="width: 100%;">
+          </li>
+          
+          <br><br>
+
+          <li> <strong> Course Exit Survey:- </strong> <br><br>
+            <p>
+              Course exit survey is typically an activity of evaluating phase. This is a course feedback survey. Student have to answer questions below so Institution can try to improve the course in future semester. <br><br>
+            </p>
+            <img id="myImg" class="borderradius" src="./Images/Academic/course exit survey.png" alt="" style="width: 100%;">
+          </li>
+
+          <br><br>
+      
+          <li> <strong> &nbsp;&nbsp;Student Course Exit Feedback:- </strong><br><br>
+            <p>In this module student can give their feedback about their departments, teacher’s, their library facilities, sport facilities etc.  after their course completion.
+              If students want to give any other suggestion, they can give in the Suggestion box there. After filling Feedback form student have to click on submit button.
+              Below picture shows the look of a Feedback form- <br> <br>
+            </p>
+            <img id="myImg" class="borderradius" src="./Images/Academic/student course exit feedback.jpeg" alt="" style="width: 100%;">
+          </li>
+            
+          <br><br>
+
+          
+
+          <li> <strong>My Online Class:- </strong> <br><br>
+            <p>
+              My online class sub module will update you with your online lectures. After click on My Online Class you will get online tutorial room. In that you have to set date (which day you’re checking) and your faculty name. After putting the data click on search button you will get the scheduled lectures with Date, Timing and topic of the lecture. <br> <br>
+            </p>
+            <img id="myImg" class="borderradius" src="./Images/Academic/my online class.png" alt="" style="width: 100%;">
+          </li>
+
+          <br><br>
+
+          <li> <strong>My Timetable:-</strong> <br><br>
+            <p>
+              In this module My Timetable, will schedule the designating time at which the lecture held for the week. Student can click on “Go live” for joining the online lectures at the given time. 
+
+              Below the picture shows the front screen of My Timetable - <br><br>
+              
+            </p>
+            <img id="myImg" class="borderradius" src="./Images/Academic/my timetable.png" alt="" style="width: 100%;">
+          </li>
+
+          <br><br>
+
+          <li> <strong>My Attendance:-</strong>  <br><br>
+            <p>
+              My Attendance module will give the record of attendance of month or a semester of students. It will give the complete data of Attendance of each and every Subject separately out of total lecture. <br><br>
+            </p>
+            <img id="myImg"  class="borderradius" src="./Images/Academic/my attendance.png" alt="" style="width: 100%;">
+          </li>
+
+          <br><br>
+
+          <li> <strong> My Notes :-</strong><br><br>
+            <p>
+              In this module student can access their notes of whichever subject they want. After lectures teachers will upload notes of particular subject. Student can download the notes from there. <br><br>
+            </p>
+            <img id="myImg" class="borderradius" src="./Images/Academic/my notes.png" alt="" style="width: 100%;">
+          </li>
+
+          <br><br>
+
+          <li> <strong> My Assignment:- </strong><br><br>
+            <p>
+              In this module student can check their assignments if they have any task to complete. Student can also submit their assignments from here on given date. The student get the detail of assignment after clicking on subject of the assignment they get to do. <br><br>
+
+Picture below show how this module works- <br><br>
+
+            </p>
+            <img id="myImg" class="borderradius" src="./Images/Academic/my assignment.png" alt="" style="width: 100%;"> <br><br>
+
+            <p>
+              After Clicking on “Submit Assignment” Button the new page will open with the details of that particular Assignments.
+              The picture below shows the page front View of Assignment submission. <br><br>
+
+            </p>
+            <img id="myImg" class="borderradius" src="./Images/Academic/my assignment2.png" alt="" style="width: 100%;">
+            <br><br>
+          </li>
+
+          <br><br>
+
+          <li> <strong>Co-Curricular Activity</strong> <br><br>
+            <p>
+              In co-curricular activity student can add up their Certificate in which ever events they take part apart from academics like sports, Music, Dance, Coding etc. Student can add more than one certificates in this module by clicking “Add New” which is on the right side of the screen. 
+	            Students can also search the upcoming events from this.<br><br>
+
+            </p>
+            <img id="myImg" class="borderradius" src="./Images/Academic/co-curricular activity1.png" alt="" style="width: 100%;"> <br><br>
+
+            <p>
+              On clicking “Add New” Button you will get this page for entering details of your certification and you will add your detail in Excel sheet too. <br><br>
+            </p>
+            <img id="myImg" class="borderradius" src="./Images/Academic/co curricular activity 2.png" alt="" style="width: 100%;">
+
+          </li>
+
+          <br><br>
+
+          <li> <strong>Vocational and Training:- </strong><br><br>
+            <p>
+              In Vocational and Training, student can check if there is any training or not from the department. If student already did some training, they can add their Training certificate here with the details of that training like organization name, Date of ending and joining, vocational type and etc. <br><br>
+            </p>
+            <img id="myImg" class="borderradius" src="./Images/Academic/vocational & training.png" alt="" style="width: 100%;">
+          </li>
+
+          <br><br>
+
+        </ol>
+
+
+        
+      </div>
+      
+      <br>
+      <hr>
+      <br>
+      
+      <div id="Examination">
+        <h2>Examination</h2>
+        <br>
+        
+        <p>This module is used to describe schedule of exam and student exam result they can see the timetable of their Class Test, main exam and can view their class test result too.
+          This module is consisting of two sub modules i.e.
+        </p>
+
+        <br>
+
+        <ol>
+          <li> <strong> Exam Schedule:- </strong> <br><br>
+            <p>In Exam schedule student can see their exam dates when the Class test and main exam will schedule. Different 
+              Semesters have different timetables. Student can see the timetable of different academic years.
+              </p>
+              <br><br>
+              <img  id="myImg" class="borderradius" class" src="./Images/Examination/Exam Schedule.jpeg" alt="" style="width: 100%;">           
+            </li>
+
+            <br>
+
+            <li> <strong>My Exam Result:-</strong> <br><br>
+              My Exam Result will show the score of your class Test 1 & class Test 2 which student get in different subject of their semesters with calculation of average percentage of different CT’S. 
+              <br>
+              The front screen of My exam result is given below: <br><br>
+              <img id="myImg" class="borderradius" class" src="./Images/Examination/My Exam Result.jpeg" alt="" style="width: 100%; padding-right: 20px;"> 
+
+            </li>
+            <br>
+        </ol>
+
+        <hr>
+        <br>
+        
+      </div>
+      <div id="Library">
+        <h2>Library:-</h2> <br><br>
+        <p>This module manages and track all the librarian work for the students such as Book availability, search for any book, issued book, returned book history of any particular user and book requisition list <br>
+          This module consists of three sub modules which are as follows: -
+        </p>
+
+        <br><br>
+
+        <ol>
+          
+          <li> <strong>Book Requisition List:- </strong> <br><br>
+            <p>In this sub module you can request for a particular book by searching it through its book title, Author and Publisher 
+              <br> <br>
+              Figure shows the Book Requisition List front screen
+             </p>
+             <br>
+             <img id="myImg" class="borderradius" src="./Images/Library/Book Requisition.jpeg" alt="Overview" width="98%">
+
+             <p>In this module, 
+              User can see all those book list for which you have requested and can also search it by its date and title by entering the details and then clicking on the search option
+              </p>
+              
+              <br><br>
+
+              <img id="myImg" class="borderradius" src="./Images/Library/Search option.jpeg" alt="Search option" width="98%">
+
+              <br><br>
+
+              <p>Or can request for the book via New Requisition option present on the screen </p>
+
+              <br><br>
+
+              <img  id="myImg" class="borderradius" src="./Images/Library/Book new requisition.jpeg" alt="Overview" width="98%">
+
+              <p>For searching your requested book below steps can be followed </p><br>
+
+              <p>
+                <b>Step 1:-</b> <br>  
+                Click on the Requisition date and edit the date from which-to-which date user requested for the book 
+              
+              <br>
+              <img id="myImg" class="borderradius" src="./Images/Library/Book Requisition.jpeg" alt="Overview" width="98%">
+
+              <b>Step 2:-</b> <br>
+              Select the book title and then click on the search button after clicking the list will be displayed on the below area  
+              
+              <br>
+              <img id="myImg" class="borderradius" src="./Images/Library/Searching your requested book step 2.jpeg" alt="Overview" width="98%">
+                <br><br>
+                For new request after clicking on new requisition the below screen will appear where user can write the book title, author of the book or publisher and can search for the availability of any particular book 
+                <br><br>
+                
+                <img id="myImg" class="borderradius" src="./Images/Library/Search for the availability.jpeg" alt="Overview" width="98%">
+              </p>
+
+              <p>
+                <b>Step 1:-</b> <br>
+                Write the book title, author of the book or publisher as shown in the figure 
+                <br><br>
+                <img id="myImg" class="borderradius" src="./Images/Library/Search for the availability step 1.jpeg" alt="Overview" width="98%">
+
+
+                <b>Step 2:-</b> <br>
+                After step 1 click on the search option to see the availability of the book 
+                <br><br>
+                <img id="myImg" class="borderradius" src="./Images/Library/Search for the availability step 2.jpeg" alt="Overview" width="98%">
+
+                <b>Step 3:-</b> <br>
+                After following step 1 and step 2 the list of searched books will be displayed with its quantity like total books available, total book issued and also the total quantity of books present on the library as shown in the figure 
+                <br><br>
+                <img id="myImg" class="borderradius" src="./Images/Library/Search for the availability step 3.jpeg" alt="Overview" width="98%">
+              </p>
+          </li>
+
+          <li> <strong>Book History</strong> <br><br>
+            <p>This sub module will display the list of books which are issued to the particular student and also the history of all the book which are returned by the user to the library as shown in the figure </p>
+            <br>
+            <br>
+            <img id="myImg" src="./Images/Library/Book history.jpeg" alt="" width="98%">
+          </li>
+          
+          <br><br>
+
+          <li> <strong>Book Search</strong> <br><br>
+            <p>Here in this sub module user can search for any particular book by its title, author or publisher </p>
+            <br><br>
+            <img id="myImg" src="./Images/Library/Book search.jpeg" alt="" width="98%">
+
+            <br><br>
+
+            <p>
+              <b>Step 1:-</b> <br>
+              User should enter any of the specific field or all the fields such as book title, author or publisher 
+            </p>
+            <br><br>
+            <img id="myImg" src="./Images/Library/Book search step 1.jpeg" alt="" width="98%">
+
+            <br>
+
+            <p>
+              <b>Step 2:-</b> <br>
+              After entering , click on the search option 
+              <br><br>
+              <img id="myImg" src="./Images/Library/Book search step 2.jpeg" alt="" width="98%">
+
+              <br>
+
+              <b>Step 3:-</b> <br>
+              After clicking on search button, it will display the list of available book which the user has searched for with its quantity 
+              <br><br>
+
+              <img id="myImg" src="./Images/Library/Book search step 3.jpeg" alt="" width="98%">
+
+              <br><br>
+
+              <b>Or</b> <br><br>
+              There is an option named as My Requisition which will display the list of books which is issued to the user and also history of books which are returned by the user as shown in the figure 
+              <br><br>
+              <img id="myImg" src="./Images/Library/book search OR.jpeg" alt="" width="98%">              
+            </p>
+          </li>
+
+          </ol>
+      </div>  
+
+      <br>
+      <hr>
+      <br>
+
+      <div id="WorkFLow"> <strong>Workflow Manager:- </strong> <br><br>
+            <p> This module allows students to raise request like bus change, bus discontinue, bus service, hostel service, fee discount, hostel room change, library fine waved off, meal, test and complain 
+               This module consists of one sub module named as <b>Request Manager </b><br>
+               Request Manager’s front screen is shown in the figure where the list of request by particular student is displayed 
+            </p><br><br>
+            <img id="myImg" src="./Images/Library/REquest manager.jpeg" alt="" width="98%"> 
+            <br><br>
+            <p>Student can request for any of the issues through this module by just clicking on add new option </p>
+            <br><br>
+            <img id="myImg" src="./Images/Library/REquest manager add new.jpeg" alt="" width="98%"> 
+            <br><br>
+            <p>After Clicking on add new option the screen appears as shown in the figure </p>
+            <br><br>
+            <img id="myImg" src="./Images/Library/Add new option.jpeg" alt="" width="98%">
+            <br><br>
+
+            <p>
+              <b>Step 1:-</b> <br>
+              Click on the Request type option the list will appear containing all the request as shown in the figure 
+              <br><br>
+              <img id="myImg" src="./Images/Library/worklflow step 1.jpeg" alt="" width="98%">
+              <br><br>
+            </p>
+
+            <p>
+              <b>Step 2:-</b> <br>
+              Select any of the request which they want to raise and then add the details asked in each request 
+              <br><br>
+            </p>
+
+            <p>
+              <b>Step 3:-</b> <br>
+              Add the request description 
+              <br><br>
+            </p>
+
+            <p>
+              <b>Step 4:-</b> <br>
+              (optional) Add the attachment if any by clicking on browse option as shown in figure
+              <br><br>
+              <img id="myImg" src="./Images/Library/workflow step 4.jpeg" alt="" width="98%">
+              <br><br>
+            </p>
+
+            <p>
+              <b>Step 5:-</b> <br>
+              Click on the Submit Request to submit the request 
+              <br><br>
+              <img src="./Images/Library/workflow step 5.jpeg" alt="" width="98%">
+              <br><br>
+            </p>
+
+            <p>To view the request, click on the view option as shown on the figure </p>
+            <br><br>
+            <img id="myImg" src="./Images/Library/workflow last.jpeg" alt="" width="98%">
+      </div>
+       
+       <br>
+       <hr>
+       <br>
+
+       <div id="OtherUtility"> 
+         <b>Other Utility:-</b>
+         
+         <br><br>
+
+         <p>
+          This module manages and let the student know their hostel and transport details 
+          This module consists of two sub modules which are: -
+        </p>
+         
+        <br><br>
+
+        <ol>
+          <li> 
+            <b> My hostel Details:- </b> <br><br>
+            <p> It will display whether the student has taken the hostel or not
+                If not taken the hostel facility it will display the text Hostel Facility not taken!! As shown in the figure 
+            </p>
+            <br>
+            <img id="myImg" src="./Images/Library/Hostel facility not taken.jpeg" alt="" width="98%">
+            <br><br>
+            <p>If hostel facility is taken by the student, then the details like Hostel and Room details will be displayed as shown in the figure </p>
+            <br><br>
+            <img id="myImg" src="./Images/Library/Hostel facility taken.jpeg" alt="" width="98%">
+
+          </li>
+
+          <li>
+            <b> My Transport details </b> <br><br>
+            <p>It will display whether the student has taken the transport facility or not
+              If not taken the transport facility it will display the text <b> Transport Facility not taken!!</b> As shown in the figure 
+              </p>
+
+              <br><br>
+              <img id="myImg" src="./Images/Library/Transport facility not taken.jpeg" alt="" width="98%">
+              <br><br>
+
+              <p>If transport facility is taken by the student, then the details like Transport details and pick & drop details will be displayed as shown in the figure </p>
+
+              
+              <img id="myImg" src="./Images/Library/Transport facility taken.jpeg" alt="" width="98%">
+
+
+          </li>
+        </ol>
+        
+<hr>
+<br>
+
+
+       </div>
+         
+       <br>
+       <hr>
+       <br>
+
+      <div id="MyProfile">
+        
+        <h2>My Profile:-</h2> <br> 
+        <p>On clicking on User profile, you will get ‘My profile’. You can update your personal, parents & Educational detail from here.</p>
+        <br><br>
+
+        <img id="myImg" class="borderradius" src="./Images/My Profile/my profile1.png" alt="My profile 1" width="98%">
+        <br><br>
+        <p>You can edit your personal detail from here. After editing your profile details click on ‘Update’ button.</p>
+        
+        <img id="myImg" class="borderradius" src="./Images/My Profile/my profile2.png" alt="My profile 1" width="98%">    
+        <br>
+        <img id="myImg" class="borderradius" src="./Images/My Profile/my profile3.png" alt="My profile 1" width="98%">    
+      
+      </div>
+
+      <br>
+      <hr>
+      <br>
+
+      <div id="MyMessage">
+        <h2>My Message</h2>
+        <p>This module is similar to the my mail module. Here, you can create a mail, receive mail, see the history of mail already sent.</p>
+        <br><br>
+        <b>How to create a mail:- </b>
+        <br><br>
+        <b>Step 1:- </b>
+        <p>Click on compose mail, than with the help of button select to whom you want to sent the mail(to teaching staff, role based or another student)</p>
+        <br>
+        <p>If you want to send mail to a teaching staff, click on teaching staff option and then click on show list.</p>
+          <br>
+          <p>It will show all the valid name of teaching faculty than choose your faculty and press select user button.</p>
+          <br><br>
+          <img id="myImg" class="borderradius" src="./Images/My message/Create 1.png" alt="My profile 1" width="98%">
+        <br><br>
+        <b>OR</b>
+        <br><br>
+        <p>If you want to send mail to another student than click on student option and then select the course of the student in which he/she is, then select their semester, select division (if any and if that department do not have division than select A) and at last click on show list .</p>
+        <br>
+        <p>Select the students name and then click on select user</p>
+        <br><br>
+        <img id="myImg" class="borderradius" src="./Images/My message/Create 1.2.1.png" alt="My profile 1" width="98%">
+
+        <br><br>
+        <b>OR</b>
+        <br><br>
+        <p>If you want to send mail to any other person of the institute then select role based option and then select their role and then select their user type and then click on select user button</p>
+        <br><br>
+        <img id="myImg" class="borderradius" src="./Images/My message/Create 1.3.png" alt="My profile 1" width="98%">
+        <br><br>
+        <p>Select your role and than select the concerned person and then click on Select user</p>
+        <br><br>
+        <img id="myImg" class="borderradius" src="./Images/My message/Create 1.3.1.png" alt="My profile 1" width="98%">
+        <br><br>
+        <b>Step 2:-</b>
+        <p>Add cc (if required in the same manner as above)</p>
+        <br><br>
+        <b>Step 3:-</b>
+        <p>Add subject the one liner statement to tell the receiver why you have sent them the email.</p>
+        <br><br>
+        <b>Step 4:-</b>
+        <p>Then add content </p>
+        <br><br>
+        <b>Step 5:-</b>
+        <p>Then click on send button to send the mail</p>
+        <br><br>
+        <img id="myImg" class="borderradius" src="./Images/My message/create final.png" alt="My profile 1" width="98%">
+        <br><br>
+        <b>Inbox:-</b>
+        <br><br>
+        <p>	It Is a place where you can see all the mails you have received from another person.</p>
+        <br><br>
+        <img id="myImg" class="borderradius" src="./Images/My message/Inbox.png" alt="My profile 1" width="98%">
+        <br><br>
+        <b>Outbox:-</b> <br><br>
+        <p>	It is a place where you can see all the messages you have sent till now in the past.</p>
+        <br><br>
+        <img id="myImg" class="borderradius" src="./Images/My message/Outbox.png" alt="My profile 1" width="98%">
+
+
+      </div>
+
+      <br>
+      <hr>
+      <br>
+
+      <div id="PasswordManager">
+        <h2>Password Manager:-</h2>
+        <br>
+       
+        <p>This section will help students to change or recover their password</p>
+        <br><br>
+
+         <b>Password Recovery:-</b> <br>
+            first enter Current Password or if don’t remember password then can go for forget password option to recover password <br><br>
+            <img id="myImg" src="./Images/Password Manager/Password recovbery.jpeg" alt="Password Recovery" style="width: 90%;">
+        <br><br>
+            <b>To change Password:-</b> <br><br>
+            <p>
+              <b>Step 1:-</b> <br>
+              Enter current password and then enter the new password after that reenter the new password in the verify password area and then click on the submit button 
+              <br><br>
+              <img id="myImg" src="./Images/Password Manager/step 1.jpeg" alt="Password changing" style="width: 90%;">
+              <br><br>
+              <b>Step 2:-</b> <br>
+                  After clicking on submit button a message displays that password changes successfully as shown in the figure 
+              <img id="myImg" src="./Images/Password Manager/Step 2.jpeg" alt="Asset Management" style="width: 90%;">
+
+
+            </p>
+
+          </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <div id="AcademicSession">
+          <h2>Academic Session</h2><br>
+          <p>Academic and session module will consist the data of different Academic year. On clicking Academic session on user profile, you can search the data of any year. For Ex. If you search the academic year 2018-2019 the dashboard of NetCampus will according to the year that you have search.
+            Below picture show the front screen of the Session & Academic Year-
+          </p> <br><br>
+          <img id="myImg" class="borderradius" src="./Images/Academic Session/academic session.png" alt="" style="width: 100%;"> <br><br>
+
+          
+        </div>
+       
+      <button onclick="topFunction()" id="myBtn" title="Go to top">&uarr;</button>
+      <br>  
+      
+    </main>
+</div> 
+  
+ <footer>
+        
+        <div class="creadtedBy">
+              <ul>
+                    &copy;  Created by:-
+                    <li>Abhishek Giri</li>
+                    <li>Nitish Prasad</li>
+                    <li>Tanisha Agarwal</li>
+              </ul>
+      </div>
+ </footer>
+  
+  
+  
+  <script src="./script.js">
+
+  </script>
+</body>
+</html>
